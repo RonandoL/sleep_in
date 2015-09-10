@@ -12,9 +12,9 @@ class Time
     elsif any_day == 5
       "Friday"
     elsif any_day == 6
-      "Saturday"
-    elsif any_day == 7
-      "Sunday"
+      "It's Saturday, you can sleep in"
+    else any_day == 7
+      "It's Sunday, you can sleep in"
     end
   end
 end
